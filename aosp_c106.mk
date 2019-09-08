@@ -32,17 +32,17 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := c106
 PRODUCT_NAME := aosp_c106
-PRODUCT_BRAND := LeEco
-PRODUCT_MANUFACTURER := LeMobile
+PRODUCT_BRAND := coolpad
+PRODUCT_MANUFACTURER := coolpad
 
 PRODUCT_GMS_CLIENTID_BASE := android-leeco
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=le_c106 \
     PRODUCT_NAME=c106_CN \
-    PRIVATE_BUILD_DESC="c106-user 6.0.1 IIXOSOP5801910121S 44 release-keys"
+    PRIVATE_BUILD_DESC="c1-user 6.0.1 ZIXOSOP5801803011S 0001832 release-keys"
 
-BUILD_FINGERPRINT := Letv/c106_WW/le_c106_ww:6.0.1/IIXOSOP5801910121S/44:user/release-keys
+BUILD_FINGERPRINT := Coolpad/C103_C1-INDIA/C103:6.0.1/ZIXOSOP5801803011S/0001832:user/release-keys
 
 #PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
